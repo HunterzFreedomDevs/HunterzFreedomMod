@@ -7,10 +7,10 @@ server:
   name: FreedomOP
 
   # The address your server is located at
-  address: fop.us.to
+  address: hunterzcraft.us.to:26965
 
   # Shown at the server list
-  motd: FreedomOP &8- Fun, Free, and Easy!
+  motd: HunterzCraft &8- Fun, Free, and Easy!
 
   # Every word in the MOTD will be a different color unless prefixed by a color code
   colorful_motd: true
