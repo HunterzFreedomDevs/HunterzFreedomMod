@@ -24,6 +24,8 @@ public enum TFM_PlayerRank
     SUPER("a " + ChatColor.GOLD + "Super Admin", ChatColor.GOLD + "[SA]"),
     TELNET("a " + ChatColor.DARK_GREEN + "Super Telnet Admin", ChatColor.DARK_GREEN + "[STA]"),
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin", ChatColor.LIGHT_PURPLE + "[SrA]"),
+    DAPANCAKE("the " + ChatColor.DARK_PURPLE + ChatColor.BOLD + "Lead Developer!", ChatColor.DARK_PURPLE + "[Lead Dev]"),
+    PHEONIX("a " + ChatColor.DARK_PURPLE + "Repo Owner of HFM and a Developer!", ChatColor.DARK_BLUE + "[Dev]"),
     OWNER("one of the " + ChatColor.BLUE + "Owners", ChatColor.BLUE + "[Owner]"),
     CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private String loginMessage;
@@ -77,6 +79,20 @@ public enum TFM_PlayerRank
         else if (sender.getName().equals("CrafterSmith12"))
         {
             return FOUNDER;
+        }
+        
+        else if (sender.getName().equals("igloo8219"))
+        {
+            return FOUNDER;
+        }
+        else if (sender.getName().equals("ThePheonixBlader"))
+        {
+            return PHEONIX;
+        }
+        
+        else if (sender.getName().equals("DaPancake"))
+        {
+            return LEADDEVELOPER;
         }
 
         else if (sender.getName().equals("Camzie99") || sender.getName().equals("DarkLynx108") || sender.getName().equals("lynxlps"))
